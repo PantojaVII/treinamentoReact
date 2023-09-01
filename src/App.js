@@ -4,7 +4,8 @@ import SayMyName from './components/SayMyName';
 import People from './components/People';
 import List from './components/List';
 import Frase from './components/Frase';
-
+import Event from "./components/Event"
+import Form from './components/forms/Form';
 
 function App() {
 
@@ -14,12 +15,12 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Testando evento</h1>
+      <Event variavel='Numero 1'></Event>
+      <Event variavel='Numero 2'></Event>
+      <hr />
+      <Form></Form>
 
-      <Frase></Frase>
-      <hr />
-      <People name={name} img={img} job={job} ></People>
-      <hr />
-      <List></List>
     </div>
 
 
