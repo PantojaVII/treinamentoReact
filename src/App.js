@@ -1,24 +1,22 @@
 import './App.css';
 import HelloWord from './components/HelloWord';
- 
-
+import SayMyName from './components/SayMyName';
+import People from './components/People';
 
 function App() {
 
-  var name = "Pantoja";
-
-  function sum() {
-    var sum = 2 + 2;
-    return sum;
-  }
+  const name = "Pantoja";
+  const job = "Empresário"
+  const img = "https://via.placeholder.com/150"
 
   const url = 'https://via.placeholder.com/150'
 
   return (
     <div className="App">
- 
-      <HelloWord></HelloWord>
 
+      <SayMyName name={name}></SayMyName>
+      <hr />
+      <People name={name} img={img} job={job} ></People>
     </div>
   );
 }
