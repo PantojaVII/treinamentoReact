@@ -4,7 +4,9 @@ function List() {
         <>
             <h1>Minha lista</h1>
             <Item marca={'Ferrari'} AnoLancamento={1999}></Item>
-            <Item marca={'Fiat'} AnoLancamento={1999}></Item>
+            <Item marca={'Audi'} AnoLancamento={1999}></Item>
+            <Item marca={'Toyota'}></Item>
+            <Item></Item>
         </>
     )
 }
