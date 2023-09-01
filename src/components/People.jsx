@@ -3,7 +3,7 @@ function People({name, job, img}) {
         <div className="">
             <img src={img} alt={name} />
             <h2>Nome: {name}</h2>
-            <p>Profissão{job}</p>
+            <p>Profissão: {job}</p>
 
         </div>
     )
