@@ -1,13 +1,23 @@
+import Button from "./events/Button"
+
 function Event({variavel}) {
-
-    function meuEvento() {
-       alert(`Fui ativado ${variavel}`)
+    
+    function Alerta(){
+        console.log('teste do alerta 01')
     }
+    
+    function Alerta2(){
+        console.log('teste do alerta 02')
+    }
+    
 
-    return (
+
+     return (
         <div>
             <p>clique para disparar um evento:</p>
-            <button onClick={meuEvento}>Ativar</button>
+            <Button Onclick={Alerta} Text='Botão 01'></Button>
+            <Button Onclick={Alerta2} Text='Botão 02'></Button>
+
         </div>
     )
 
