@@ -13,6 +13,7 @@ function StateLiftFather(params) {
             {nome}
             {/* Com essa passagem, conseguimos enviar o dado para uma outra component e fazer  o que quiser com ela  */}
         </div>
+       
     )
 
 }
